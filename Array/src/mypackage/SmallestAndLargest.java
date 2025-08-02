@@ -24,13 +24,14 @@ public class SmallestAndLargest {
 		int temp1=arr[0];
 		for(int j=1;j<a;j++)
 		{
-			if(temp>arr[j])
-				temp=arr[j];
+			if(temp1>arr[j])
+				temp1=arr[j];
 		}
-		System.out.println("Smallest number of array is:"+temp);
+		System.out.println("Smallest number of array is:"+temp1);
 		
 		
 
 	}
 
 }
+
